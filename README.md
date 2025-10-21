@@ -38,8 +38,9 @@ rm -rf /tmp/fish-git
 | `gcp`  | `git cherry-pick`      | Apply the changes from an existing commit                 |
 | `gd`   | `git diff`             | Show changes between commits, branches, or working tree   |
 | `gf`   | `git fetch`            | Download objects and refs from remotes                    |
-| `gl`   | `git pull`             | Fetch and merge changes from the remote                   |
-| `gpr`  | `git pull --rebase`    | Pull and rebase local changes on top                      |
+| `gl`   | `git pull`                              | Fetch and merge changes from the remote                   |
+| `glog` | `git log --oneline --decorate --graph` | Display commit history in a compact, decorated graph      |
+| `gpr`  | `git pull --rebase`                     | Pull and rebase local changes on top                      |
 | `gm`   | `git merge`            | Join two or more development histories                    |
 | `gp`   | `git push`             | Update remote refs along with associated objects          |
 | `grs`  | `git restore`          | Restore working tree files                                |
