@@ -43,6 +43,7 @@ rm -rf /tmp/fish-git
 | `gpr`  | `git pull --rebase`                     | Pull and rebase local changes on top                      |
 | `gm`   | `git merge`            | Join two or more development histories                    |
 | `gp`   | `git push`             | Update remote refs along with associated objects          |
+| `grhh` | `git reset --hard HEAD` | Reset working tree and index to HEAD (discards all changes) |
 | `grs`  | `git restore`          | Restore working tree files                                |
 | `gst`  | `git status`           | Show working tree status                                  |
 | `gsw`  | `git switch`           | Switch branches                                           |
